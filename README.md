@@ -1,2 +1,2 @@
-# Pok-Forge
+# PokeForge
 A Pokemon teambuilding tool
