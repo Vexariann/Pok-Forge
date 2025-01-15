@@ -1,0 +1,28 @@
+/* .splashImageOverlay {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  z-index: 11;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+
+.splashImage {
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.splashImage::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 15;
+}
